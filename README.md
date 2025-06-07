@@ -21,4 +21,22 @@ This project uses **OpenCV** and **EasyOCR** to detect and read vehicle number p
 4. Find contours to locate the number plate
 5. Apply EasyOCR to extract and read the plate number
 
+## Getting Started
+
+How to use  
+```bash
+git clone https://github.com/rida2911/Vehicle-Number-Plate-Detection.git
+cd Vehicle-Number-Plate-Detection
+```
+Install dependencies
+
+```
+pip install -r requirements.txt
+
+```
+Run the Application
+
+```
+streamlit run app.py
+```
 
